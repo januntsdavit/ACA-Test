@@ -6,7 +6,7 @@ public class Circle {
         Scanner input = new Scanner(System.in);
 
 
-        // Prompt the user to enter a point
+        // Prompt the user to enter a point coordinates
         System.out.print("Enter a point with two coordinates: ");
         double x = input.nextDouble();
         double y = input.nextDouble();
@@ -23,8 +23,6 @@ public class Circle {
         case 2:
         System.out.println("Point B with x and y coordinates is on the circle line");
         break;
-        case 3:
-        System.out.println("Not a number");
 
         }
 
